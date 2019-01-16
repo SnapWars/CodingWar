@@ -6,7 +6,6 @@ class MovingAverage(object):
         :type size: int
         """
         self.size = size
-        self.counter = 0
         self.length = 0
         self.buf = []
 
